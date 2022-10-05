@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(224, 20, 20);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.445);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: aqua;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">link</a>
+            <a href="a">link</a>
+            <a href="a">link</a>
+            <a href="a">link</a>
+            <a href="a">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntis">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quia architecto blanditiis asperiores vel non explicabo nulla laboriosam placeat, commodi ab beatae magnam illum voluptatibus, impedit perspiciatis omnis! Et, quaerat.</p>
+                <aside>
+                    <p>Artigo escrito por tal d tla</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
