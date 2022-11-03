@@ -9,24 +9,37 @@
         table {
             width: 500px;
             border-collapse: collapse;
-            text-align: center;
+            
         }
 
         td, th {
             border: 1px solid black;
             padding: 8px;
+            text-align: center
             
 
         }
 
-        thead, .thea {
+        thead {
             background-color: gray;
             color: white;
-        }
-
-        .esq, .thea{
             text-align: left;
         }
+
+        #thea {
+            background-color: gray;
+            color: white;
+            text-align: left;
+        }
+
+        .thea1 {
+            background-color: gray;
+        }
+
+        .esq{
+            text-align: left;
+        }
+
     </style>
 </head>
 <body>
@@ -75,9 +88,9 @@
                 <td>0.0</td>
             </tr>
 
-            <tr class="thea">
-                <th colspan="4">Média de Exatas</th>
-                <td>0.0</td>
+            <tr>
+                <th colspan="4" id="thea">Média de Exatas</th>
+                <td class="thea1">0.0</td>
             </tr>
 
             <tr>
@@ -95,9 +108,9 @@
                 <td>0.0</td>
             </tr>
 
-            <tr class="thea">
-                <th colspan="4">Média de Humanas</th>
-                <td>0.0</td>
+            <tr>
+                <th colspan="4" id="thea">Média de Humanas</th>
+                <td class="thea1">0.0</td>
             </tr>
         </tbody>
 
